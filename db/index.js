@@ -1,6 +1,5 @@
 const fs = require("fs/promises");
 const path = require("path");
-const nanoid = require("nanoid");
 
 // Отримуємо абсолютний шлях
 const contactsPath = path.join(__dirname, "contacts.json");
@@ -28,7 +27,6 @@ const get = async (id) => {
 const add = async ({ name, email, phone }) => {
   const contacts = await list();
   const newContact = {
-    id: nanoid(),
     name,
     email,
     phone,
