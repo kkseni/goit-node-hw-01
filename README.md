@@ -1,2 +1,2 @@
 Модуль №1 Node.js
-<img src="https://prnt.sc/GIYKZoyAu2aa" alt="all-results" >
+All result here : https://drive.google.com/drive/folders/19iT-rvB5zAel4pzUfDhTeem-n1a7Iafp
