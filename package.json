@@ -1,0 +1,20 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "pkg": "^5.8.0",
+    "yarn": "^1.22.19"
+  }
+}
