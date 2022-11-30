@@ -1,6 +1,6 @@
 const fs = require("fs/promises");
 const path = require("path");
-
+const uuid = require("uuid");
 // Отримуємо абсолютний шлях
 const contactsPath = path.join(__dirname, "contacts.json");
 
@@ -24,9 +24,10 @@ const get = async (id) => {
 };
 
 // Додавання нового контакту
-const add = async ({ name, email, phone }) => {
+const add = async ({ id, name, email, phone }) => {
   const contacts = await list();
   const newContact = {
+    id: uuid.v4(),
     name,
     email,
     phone,
